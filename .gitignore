@@ -1,0 +1,98 @@
+# ==========================================
+# Ambientes Virtuais & Gerenciadores (uv/pip)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.uv/
+
+# ==========================================
+# Arquivos de Configuração Sensíveis & Segredos
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# ==========================================
+# Byte-compiled / arquivos gerados pelo Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Pacotes, Builds e Distribuição
+# ==========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Testes, Cobertura e Linter Caches
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.pyo
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# IDEs & Editores (VS Code, Cursor, PyCharm)
+# ==========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Logs e Dados Temporários
+# ==========================================
+*.log
+*.tmp
+*.temp
+logs/
+reports/
+
+# ==========================================
+# Sistema Operacional (Linux / macOS / Windows)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
