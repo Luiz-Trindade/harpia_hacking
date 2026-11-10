@@ -1,0 +1,1 @@
+# Nmap 7.98 scan initiated Tue Nov 10 18:31:03 2026 as: nmap -sT -p 443 --script tls-fingerprint -oA xml 129.121.41.207:443

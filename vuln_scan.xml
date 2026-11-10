@@ -1,0 +1,10 @@
+# Nmap 7.98 scan initiated Tue Nov 10 18:29:54 2026 as: nmap -sV -p 22,80,443,8080,3306,5432,27017,8000,8005 --script http-get-title;http-response-header;ssh-do-auth -T4 -o vuln_scan.xml 129.121.41.207
+NSE: failed to initialize the script engine:
+/usr/bin/../share/nmap/nse_main.lua:829: 'http-get-title;http-response-header;ssh-do-auth' did not match a category, filename, or directory
+stack traceback:
+	[C]: in function 'error'
+	/usr/bin/../share/nmap/nse_main.lua:829: in local 'get_chosen_scripts'
+	/usr/bin/../share/nmap/nse_main.lua:1364: in main chunk
+	[C]: in ?
+
+QUITTING!
